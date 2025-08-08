@@ -1,0 +1,9 @@
+vou falar sobre:
+historia dos computadores
+client x server
+ferramentas utilizadas para html
+ispetor de elementos
+estrutura básica de html
+tags
+atributos de tags
+links de referencia
