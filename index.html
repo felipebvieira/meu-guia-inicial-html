@@ -13,8 +13,7 @@
     <p>Meu Guia Sobre HTML</p>
     <ul>
         <li><a href="#historia">História dos computadores</a></li>
-        <li><a href="#clients">O que são <i>Clients</i>?</a></li>
-        <li><a href="#servers">O que são <i>Servers</i>?</a></li>
+        <li><a href="#clients-servers">O que são <i>Clients e Servers</i>?</a></li>
         <li><a href="#ferramentas">Ferramentas que gosto de utilizar e Inspetor de Elementos</a></li>
         <li><a href="#estrutura">Como é uma estrutura básica de um HTML?</a></li>
         <li><a href="#tags">O que são <i>tags</i>?</a></li>
@@ -99,17 +98,99 @@
     </ul>
     <small><a href="#inicio">(Voltar)</a></small>
 
-    <h2 id="clients">O que são <i>Clients</i>?</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste trecho, coloque com suas palavras o que entendeu sobre o assunto. 
-       Não esqueça de colocar links para outros sites e também de formatar o texto com 
-       <strong>negrito</strong>, <i>itálico</i> e <u>sublinhado</u> quando necessário.</p>
-    <p>Não esqueça também de colocar o link para voltar até o índice. (Lembra das âncoras?)</p>
-    <small><a href="#inicio">(Voltar)</a></small>
-
-    <h2 id="servers">O que são <i>Servers</i>?</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste trecho, coloque com suas palavras o que entendeu sobre o assunto. 
-       Não esqueça de colocar links para outros sites e também de formatar o texto com 
-       <strong>negrito</strong>, <i>itálico</i> e <u>sublinhado</u> quando necessário.</p>
+    <h2 id="clients-servers">O que são <i>Clients e Servers</i>?</h2>
+    <h3>1. Conceito de Client e Server</h3>
+    <p>No linguajar da web:</p>
+    <ul>
+      <li>
+         <p><strong>Client (cliente)</strong> → É quem consome o serviço.</p>
+         <p>Pode ser um navegador, aplicativo de celular, ou até outro sistema.</p>
+         <p>Ele envia requisições (pedidos) para o servidor e exibe ou processa a resposta.</p>
+         <p>Ex.: Chrome acessando o Google, um app de delivery pedindo a lista de restaurantes.</p>
+      </li>
+      <li>
+         <p><strong>Server (servidor)</strong>→ É quem fornece o serviço.</p>
+         <p>Recebe a requisição, processa, busca dados e envia uma resposta.</p>
+         <p>Ex.: Os computadores do Google que recebem seu pedido de busca e enviam os resultados.</p>
+      </li>
+    </ul>
+    <h3>2. Client na prática</h3>
+    <h4>Navegadores (Browsers)</h4>
+    <ul>
+      <li>Interpretam o <strong>HTML</strong>, aplicam o <strong>CSS</strong> e executam o <strong>JavaScript</strong> recebidos do servidor.</li>
+      <li>Exemplos: Google Chrome, Mozilla Firefox, Safari, Microsoft Edge, Opera.</li>
+      <li>São <strong>clients universais</strong> para web, compatíveis com padrões (W3C).</li>
+    </ul>
+    <h4>Aplicações Web</h4>
+    <ul>
+      <li>Rodam dentro do navegador.</li>
+      <li>Podem ser simples (site institucional) ou complexas (Google Docs, Trello).</li>
+      <li>Muitas usam frameworks <strong>JavaScript</strong> como React, Angular, Vue para mais interatividade.</li>
+    </ul>
+    <h4>Dispositivos móveis</h4>
+    <ul>
+      <li>Clientes podem ser <strong>apps nativos</strong> (Android, iOS) ou <strong>PWA</strong> (Progressive Web App).</li>
+      <li>Apps nativos podem consumir APIs do servidor para funcionar.</li>
+    </ul>
+    <h3>3. Linguagens de programação do lado Client</h3>
+    <p>Executadas no <strong>navegador</strong> ou dispositivo do usuário:</p>
+    <ul>
+      <li><strong>HTML</strong> → Estrutura da página (não é linguagem de programação, mas de marcação).</li>
+      <li><strong>CSS</strong> → Estilo e layout.</li>
+      <li><strong>JavaScript</strong> → Interatividade e lógica.</li>
+      <li><strong>TypeScript</strong> (compila para JS).</li>
+      <li><strong>WebAssembly</strong> → Executa código de linguagens como C++/Rust no browser.</li>
+    </ul>
+    <h3>4. Server na prática</h3>
+    <h4>Hardware de Servidores</h4>
+    <ul>
+      <li><strong>Físicos:</strong> Máquinas potentes com processadores para múltiplas tarefas, muito RAM e armazenamento rápido (SSD/NVMe).</li>
+      <li><strong>Virtuais (VPS / Cloud):</strong> Uma máquina física dividida em várias virtuais.</li>
+      <li>Servidores podem estar em <strong>data centers</strong> espalhados pelo mundo.</li>
+    </ul>
+    <h4>Softwares de Servidor</h4>
+    <ul>
+      <li><strong>Sistema Operacional:</strong> Linux (Ubuntu, CentOS, Debian) ou Windows Server.</li>
+      <li><strong>Servidor Web:</strong> Apache, Nginx, LiteSpeed, IIS.</li>
+      <li><strong>Banco de Dados:</strong> MySQL, PostgreSQL, MongoDB, Redis.</li>
+      <li><strong>Serviços adicionais:</strong> Cache, balanceamento de carga, segurança.</li>
+    </ul>
+    <h4>Tipos de Servidores</h4>
+    <ul>
+      <li><strong>Web Server:</strong> Hospeda sites e APIs (Apache, Nginx).</li>
+      <li><strong>Banco de Dados:</strong> Gerencia dados estruturados (MySQL, PostgreSQL).</li>
+      <li><strong>Aplicação:</strong> Processa regras de negócio (Node.js, PHP-FPM, Java).</li>
+      <li><strong>Email Server:</strong> Envia/recebe e-mails (Postfix, Exim).</li>
+      <li><strong>FTP/SFTP Server:</strong> Transferência de arquivos.</li>
+      <li><strong>Game Server:</strong> Hospeda partidas de jogos online.</li>
+    </ul>
+    <h3>5. Hospedagem de Sites</h3>
+    <p>Formas comuns:</p>
+    <ol>
+      <li><strong>Hospedagem Compartilhada</strong> → Vários sites no mesmo servidor (mais barato, menos controle).</li>
+      <li><strong>VPS (Virtual Private Server)</strong> → Servidor virtual exclusivo, mais controle.</li>
+      <li><strong>Servidor Dedicado</strong> → Máquina física inteira para você.</li>
+      <li><strong>Cloud Hosting</strong> → Infraestrutura escalável (AWS, Azure, Google Cloud).</li>
+      <li><strong>Serverless </strong>→ Você só paga pela execução de código (AWS Lambda, Vercel Functions).</li>
+    </ol>
+    <h3>6. Linguagens de programação do lado Server</h3>
+    <p>Rodam no <strong>servidor</strong>, processam dados e enviam respostas ao cliente:</p>
+    <ul>
+      <li>•	<strong>JavaScript (Node.js)</strong> → Executa JS no backend.</li>
+      <li>•	<strong>PHP</strong> → Muito usado em WordPress, Laravel.</li>
+      <li>•	<strong>Python</strong> → Django, Flask, FastAPI.</li>
+      <li>•	<strong>Java</strong> → Spring Boot, aplicações corporativas.</li>
+      <li>•	<strong>C# (.NET Core)</strong> → Aplicações corporativas e APIs.</li>
+      <li>•	<strong>Ruby</strong> → Ruby on Rails.</li>
+      <li>•	<strong>Go</strong> → Rápido e escalável.</li>
+      <li>•	<strong>Rust</strong> → Alta performance e segurança.</li>
+    </ul>
+    <h3>Resumo visual</h3>
+    <p>[CLIENTE] → Navegador/App → HTML, CSS, JS → Solicita dados</p>
+    <p>↓</p>
+    <p>Internet</p>
+    <p>↑</p>
+    <p>[SERVER] → Apache/Nginx + Linguagem backend → Banco de Dados → Resposta</p>
     <small><a href="#inicio">(Voltar)</a></small>
 
     <h2 id="ferramentas">Ferramentas que gosto de utilizar e Inspetor de Elementos</h2>
