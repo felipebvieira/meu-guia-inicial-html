@@ -255,13 +255,55 @@
     <h2 id="estrutura">Como é uma estrutura básica de um HTML?</h2>
     <img src="img01.png" />
     <h3>1. !DOCTYPE html</h3>
+    <ul>
+      <li>•	Diz ao navegador qual versão do HTML está sendo usada.</li>
+      <li>•	Neste caso, html indica que estamos usando HTML5, que é a versão atual e padrão.</li>
+      <li>•	Não é uma tag HTML, é apenas uma instrução para o navegador.</li>
+    </ul>
     <h3>2. html lang="en" ... html</h3>
+    <ul>
+      <li>•	Marca o início e o fim do documento HTML.</li>
+      <li>•	O atributo lang="en" indica que o idioma principal do conteúdo é inglês (en = English).</li>
+      <li>•	Se fosse em português, poderia ser lang="pt-BR".</li>
+    </ul>
     <h3>3. head ... head</h3>
+    <ul>
+      <li>•	Contém informações sobre a página (metadados), que não aparecem diretamente para o usuário.</li>
+      <li>•	Aqui ficam:
+         <ul>
+            <li>o	Configurações de codificação de texto.</li>
+            <li>o	Ajustes para dispositivos móveis.</li>
+            <li>o	Título da página.</li>
+            <li>o	Links para arquivos CSS, scripts, ícones etc.</li>
+         </ul>
+      </li>
+    </ul>
+    <p>Dentro dele temos:</p>
     <h4>3.1 meta charset="UTF-8"</h4>
+    <ul>
+      <li>•	Define a codificação de caracteres da página.</li>
+      <li>•	UTF-8 suporta praticamente todos os caracteres e acentos (importante para português).</li>
+    </ul>
     <h4>3.2 meta name="viewport" content="width=device-width, initial-scale=1.0"</h4>
+    <ul>
+      <li>•	Faz a página se adaptar a diferentes tamanhos de tela (responsividade).</li>
+      <li>•	width=device-width ajusta a largura ao tamanho da tela do dispositivo.</li>
+      <li>•	initial-scale=1.0 define o nível inicial de zoom.</li>
+    </ul>
     <h4>3.3 title Document title</h4>
+    <ul>
+      <li>•	Define o título que aparece na aba do navegador.</li>
+      <li>•	Também é usado pelos buscadores (Google, Bing etc.) como título nos resultados de pesquisa.</li>
+    </ul>
     <h3>4. body ... body</h3>
+    <ul>
+      <li>•	É onde vai todo o conteúdo visível da página: textos, imagens, links, vídeos, botões, formulários etc.</li>
+    </ul>
     <h3>💡 Resumindo a lógica:</h3>
+    <p>!DOCTYPE html → Versão do HTML</p>
+    <p>html          → Tudo do site está aqui</p>
+    <p>head          → Informações sobre a página</p>
+    <p>body          → Conteúdo que o usuário vê</p>
     <small><a href="#inicio">(Voltar)</a></small>
     <hr />
 
