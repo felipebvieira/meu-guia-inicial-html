@@ -23,7 +23,6 @@ Criar uma página HTML abordando:
 ## 📂 Estrutura do projeto
 📁 desafio-html
 ├── 📄 index.html # Página principal com todo o conteúdo
-└── 📄 README.md # Descrição do projeto
 
 ## 🚀 Como visualizar o projeto
 1. Baixe ou clone este repositório:
@@ -32,7 +31,7 @@ Criar uma página HTML abordando:
 Abra o arquivo index.html no seu navegador OU utilize a extensão Live Server no VS Code para visualizar.
 
 📸 Prévia do projeto
-(Se quiser, adicione aqui uma imagem da sua página usando ![texto alternativo](caminho/para/imagem.png))
+![texto alternativo](previa.png)
 
 📚 Aprendizados
 Durante o desenvolvimento, pude reforçar conceitos como:
