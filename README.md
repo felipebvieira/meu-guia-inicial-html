@@ -31,7 +31,7 @@ Criar uma página HTML abordando:
 Abra o arquivo index.html no seu navegador OU utilize a extensão Live Server no VS Code para visualizar.
 
 📸 Prévia do projeto
-![texto alternativo](previa.png)
+![Fatal Error](previa.png)
 
 📚 Aprendizados
 Durante o desenvolvimento, pude reforçar conceitos como:
